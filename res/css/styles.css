@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+/* General body css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(mics/bg2.png) left/cover;
+    color: white;
+    height: 250vh;
+}
+
+#navul {
+    display: inline;
+
+
+}
+#mainav {
+    background-color: aliceblue;
+    min-height: 5rem;
+    word-spacing: 25rem;
+    font-family: 'Advent Pro', sans-serif;
+    text-transform: uppercase;
+    width: 95%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 5px;
+    background: skyblue;
+    width: auto;
+    border-radius: 30px;
+    box-shadow: 0 2px 12px 5px rgba(67, 77, 85, 0.671);
+
+}
+
+
+.nav {
+    display: inline;
+    text-align: center;
+
+}
+
+/* h1 css */
+h1 {
+    padding-top: 50px;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-shadow:0px 3px 2px rgb(22, 122, 198) ;
+    color: rgba(48, 165, 37, 0.137);
+    text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+}
+/* first letter of h1 */
+h1::first-letter {
+    font-style: oblique;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: rgba(81, 112, 216, 0.767);
+    text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+
+}
+p {
+    margin: 20px 20px;
+}
